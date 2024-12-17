@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/appu/robotbot_ws/devel/lib/python3/dist-packages",
+        "/home/appu/bumperbot_Ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/appu/robotbot_ws/devel/lib/python3/dist-packages",
+        "/home/appu/bumperbot_Ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
