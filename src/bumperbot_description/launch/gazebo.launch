@@ -2,8 +2,8 @@
   <!-- Argument for the URDF model -->
   <arg name="model" default="$(find bumperbot_description)/urdf/bumperbot.urdf.xacro"/>
 
-  <!-- Argument for the world file, default is cafe.world -->
-  <arg name="world" default="$(find gazebo_ros)/../share/gazebo-11/worlds/cafe.world"/>
+  <!-- Argument for the world file, default is custom_home.world -->
+  <arg name="world" default="/home/appu/robotbot_ws/src/bumperbot_description/worlds/custom_home.world"/>
 
   <!-- Load the robot description parameter -->
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(arg model)" />

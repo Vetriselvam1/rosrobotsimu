@@ -1,0 +1,4 @@
+<launch>
+  <!-- Start RViz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find bumperbot_description)/config/custom.rviz"/>
+</launch>
